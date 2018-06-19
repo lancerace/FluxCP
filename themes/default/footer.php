@@ -28,11 +28,11 @@
 			<tr>
 				<td colspan="3"></td>
 				<td id="info">
-					<p>
+				<!--	<p>
 						Page generated in <strong><?php echo round(microtime(true) - __START__, 5) ?></strong> second(s).
 						Number of queries executed: <strong><?php echo (int)Flux::$numberOfQueries ?></strong>.
 						<?php if (Flux::config('GzipCompressOutput')): ?>Gzip Compression: <strong>Enabled</strong>.<?php endif ?>
-					</p>
+					</p> !-->
 				</td>
 				<td></td>
 			</tr>
@@ -41,14 +41,14 @@
 			<tr>
 				<td colspan="3"></td>
 				<td align="right">
-				<span>Theme:
+				<!--<span>Theme:
 					<select name="preferred_theme" onchange="updatePreferredTheme(this)">
 						<?php foreach (Flux::$appConfig->get('ThemeName', false) as $themeName): ?>
 						<option value="<?php echo htmlspecialchars($themeName) ?>"<?php if ($session->theme == $themeName) echo ' selected="selected"' ?>><?php echo htmlspecialchars($themeName) ?></option>
 						<?php endforeach ?>
 					</select>
-					</span>
-					
+				</span> !-->
+
 					<form action="<?php echo $this->urlWithQs ?>" method="post" name="preferred_theme_form" style="display: none">
 						<input type="hidden" name="preferred_theme" value="" />
 					</form>

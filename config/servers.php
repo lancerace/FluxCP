@@ -16,7 +16,7 @@ return array(
 			'Hostname'   => '127.0.0.1',
 			'Username'   => 'ragnarok',
 			'Password'   => 'ragnarok',
-			'Database'   => 'ragnarok',
+			'Database'   => 'rathena',
 			'Persistent' => true,
 			'Timezone'   => null // Example: '+0:00' is UTC.
 			// The possible values of 'Timezone' is as documented from the MySQL website:
@@ -37,13 +37,13 @@ return array(
 			'Hostname'   => '127.0.0.1',
 			'Username'   => 'ragnarok',
 			'Password'   => 'ragnarok',
-			'Database'   => 'ragnarok',
+			'Database'   => 'rathena_logs',
 			'Persistent' => true,
 			'Timezone'   => null // Possible values is as described in the comment in DbConfig.
 		),
 		// Login server configuration.
 		'LoginServer'    => array(
-			'Address'  => '127.0.0.1',
+			'Address'  => '127.0.0.1:3306',
 			'Port'     => 6900,
 			'UseMD5'   => false,
 			'NoCase'   => true, // rA account case-sensitivity; Default: Case-INsensitive (true).
@@ -59,9 +59,9 @@ return array(
 				//'ResetDenyMaps'   => 'sec_pri', // Defaults to 'sec_pri'. This value can be an array of map names.
 				//'Database'        => 'ragnarok', // Defaults to DbConfig.Database
 				'ExpRates' => array(
-					'Base'        => 100, // Rate at which (base) exp is given
-					'Job'         => 100, // Rate at which job exp is given
-					'Mvp'         => 100  // MVP bonus exp rate
+					'Base'        => 2, // Rate at which (base) exp is given
+					'Job'         => 2, // Rate at which job exp is given
+					'Mvp'         => 1  // MVP bonus exp rate
 				),
 				'DropRates' => array(
 					// The rate the common items (in the ETC tab, besides card) are dropped
