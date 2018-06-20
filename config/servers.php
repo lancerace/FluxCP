@@ -43,7 +43,7 @@ return array(
 		),
 		// Login server configuration.
 		'LoginServer'    => array(
-			'Address'  => '54.169.212.208',
+			'Address'  => '139.99.43.232',
 			'Port'     => 6900,
 			'UseMD5'   => false,
 			'NoCase'   => true, // rA account case-sensitivity; Default: Case-INsensitive (true).
@@ -83,11 +83,11 @@ return array(
 					'MvpItem'     => 100
 				),
 				'CharServer'      => array(
-					'Address'     => '54.169.212.208',
+					'Address'     => '139.99.43.232',
 					'Port'        => 6121
 				),
 				'MapServer'       => array(
-					'Address'     => '54.169.212.208',
+					'Address'     => '139.99.43.232',
 					'Port'        => 5121
 				),
 				// -- WoE days and times --
