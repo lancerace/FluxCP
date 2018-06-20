@@ -7,3 +7,9 @@ CREATE TABLE IF NOT EXISTS `cp_itemshop` (
   `create_date` datetime NOT NULL,
   PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM COMMENT='Item shop';
+
+ALTER TABLE `cp_itemshop` ADD `use_existing` TINYINT NOT NULL DEFAULT '0' AFTER `info`;
+
+ALTER TABLE  `cp_itemshop` ADD INDEX (  `nameid` ) ;
+
+ALTER TABLE `cp_itemshop` ADD `category` INT(11) NULL AFTER `nameid`;

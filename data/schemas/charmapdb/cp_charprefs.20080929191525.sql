@@ -7,3 +7,8 @@ CREATE TABLE IF NOT EXISTS `cp_charprefs` (
   `create_date` datetime default NULL,
   PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM COMMENT='Character preferences.';
+
+
+ALTER TABLE  `cp_charprefs` ADD INDEX (  `account_id` ,  `char_id` ) ;
+
+ALTER TABLE `cp_charprefs` ADD INDEX (`char_id`);
