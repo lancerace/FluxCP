@@ -43,7 +43,7 @@ return array(
 		),
 		// Login server configuration.
 		'LoginServer'    => array(
-			'Address'  => '139.99.43.232',
+			'Address'  => '139.99.43.232:3306',
 			'Port'     => 6900,
 			'UseMD5'   => false,
 			'NoCase'   => true, // rA account case-sensitivity; Default: Case-INsensitive (true).
