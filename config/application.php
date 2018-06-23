@@ -2,7 +2,7 @@
 // This is the application configuration file. All values have been set to
 // the default, and should be changed as needed.
 return array(
-	'ServerAddress'				=> '54.169.212.208',				// This value is the hostname:port under which Flux runs. (e.g., example.com or example.com:80)
+	'ServerAddress'				=> '52.221.92.166',				// This value is the hostname:port under which Flux runs. (e.g., example.com or example.com:80)
 	'BaseURI'					=> '/',						// The base URI is the base web root on which your application lies.
 	'InstallerPassword'			=> 'secretpassword',		// Installer/updater password.
 	'RequireOwnership'			=> true,					// Require the executing user to be owner of the FLUX_ROOT/data/ directory tree? (Better for security)
