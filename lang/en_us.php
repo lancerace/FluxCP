@@ -58,9 +58,9 @@ return array(
     //SIDEBAR
     //FluxCP Menu Items
     //Categories
-    'MainMenuLabel'           => 'Home',
+    'MainMenuLabel'           => 'HOME',
     'ForumLabel'              => 'Forum',
-    'AccountLabel'            => 'Account',
+    'AccountLabel'            => 'ACCOUNT',
     'CharacterLabel'          => 'Character',
     'ServiceDeskLabel'        => 'Service Desk',
     'CPLogsLabel'             => 'CP Logs',
@@ -72,8 +72,8 @@ return array(
     'SendMailLabel'           => 'Send Mail',
     'ReInstallLabel'          => 'Re-Install',
     'TaskListLabel'           => 'Task List',
-    'DonationsLabel'          => 'Donations',
-    'InformationLabel'        => 'Info',
+    'DonationsLabel'          => 'DONATIONS',
+    'InformationLabel'        => 'INFO',
     'DatabaseLabel'           => 'Database',
     'SocialLabel'             => 'Social',
     //SubMenus
