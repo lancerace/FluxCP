@@ -19,7 +19,7 @@
 						<div class="clear"></div>
 					<?php endif; ?>
 				</div>
-			<?php endforeach; ?> 
+			<?php endforeach; ?>
 			</div>
 		<?php else: ?>
 			<p><?php echo htmlspecialchars(Flux::message('CMSNewsEmpty')) ?></p>
@@ -38,7 +38,7 @@
 						<div class="clear"></div>
 					</div>
 				<?php endif ?>
-			<?php endforeach; ?> 
+			<?php endforeach; ?>
 		</div>
 		<?php else: ?>
 			<p>

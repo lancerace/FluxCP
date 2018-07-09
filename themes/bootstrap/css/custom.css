@@ -1,0 +1,125 @@
+@font-face {
+  font-family:'glyphicons';
+  src: url('../fonts/glyphicons-halflings-regular.eot'), /* IE9 Compat Modes */
+      url('../fonts/glyphicons-halflings-regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/glyphicons-halflings-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/glyphicons-halflings-regular.svg') format('svg'); /* Legacy iOS */
+}
+
+body{
+height:1400px;
+}
+.bgimg {
+  background-image: url("../img/Background.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.container-fluid {
+  padding: 20% 18% 0% 18%;
+}
+
+nav.navbar.fixed-top {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.navbar.fixed-top.scrolling-navbar {
+  padding: 1rem 1.6rem;
+  font-family: 'Poppins', 'sans-serif';
+  font-size: 20px;
+}
+.navbar-brand {}
+
+/*dropdown title*/
+li>a.dropdown-toggle {
+  letter-spacing: 2.5px;
+
+}
+
+.dropdown-menu.dropdown-primary>a:hover {
+  background-color: rgba(96, 125, 139, 0.7) ;
+  opacity:0.9;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+}
+
+ul.navbar-nav.mr-auto {
+  padding-left: 25%;
+}
+div.col.ml-5 {
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.dropdown-menu {
+  left: 30px;
+padding-top:0;
+
+  border-radius:0;
+  display: none;
+}
+
+.dropdown-menu a {
+  display: block;
+}
+
+li.nav-item.dropdown:hover .dropdown-menu{
+  display: block;
+}
+
+.maincard {
+  height: auto;
+}
+
+.newsDiv {
+
+}
+
+.cardroundedheader {
+  border-radius: 0.25rem 0.25rem 0rem 0rem;
+  background-color: white;
+}
+
+.cardroundedfooter {
+  background-color: white;
+  border-radius: 0rem 0rem 0.25rem 0.25rem;
+  height: 120px;
+  color: gray;
+}
+
+.cardfooterfont {
+  font-size: 1.2em;
+  font-style: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  word-spacing: 0.01px;
+  letter-spacing: 0.2px;
+}
+
+div>img, div>h4 {
+  display: inline-block;
+}
+
+.zoom {
+  position: relative;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+
+.zoom:hover {
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.15);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.15);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.15);
+  transition: all 200ms ease-in;
+  transform: scale(1.15);
+}
